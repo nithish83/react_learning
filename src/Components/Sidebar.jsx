@@ -3,8 +3,10 @@ import { NavLink } from "react-router-dom";
 const menuItems = [
   { label: "Dashboard", path: "/" },
   { label: "Users", path: "/users" },
+  { label: "Add User", path: "/add-user" },
   { label: "Settings", path: "/settings" },
 ];
+
 
 export default function Sidebar() {
   return (
