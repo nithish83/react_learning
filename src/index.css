@@ -6,21 +6,27 @@ body {
 
 .app-root {
   display: flex;
-  height: 100vh;
+  height: 150vh;
 }
 
 .sidebar {
   width: 200px;
-  background-color: #f0f0f0;
+  background-color: #4db2df;
   padding: 16px;
+  /* important: stack items vertically */
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar-item {
+  display: block;
   padding: 8px;
   margin-bottom: 4px;
   cursor: pointer;
+  text-decoration: none;   /* remove underline */
+  color: #111;             /* link color */
+  border-radius: 4px;
 }
-
 .sidebar-item:hover {
   background-color: #e0e0e0;
 }
@@ -68,3 +74,9 @@ body {
   font-weight: bold;
   margin-top: 8px;
 }
+
+.sidebar-item-active {
+  background-color: #dbeafe;
+  font-weight: 600;
+}
+
