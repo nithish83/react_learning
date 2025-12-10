@@ -1,6 +1,6 @@
-import Navbar from "./Components/Navbar";
-import Sidebar from "./Components/Sidebar";
-import Dashboard from "./pages/Dashboard";
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+import UsersPage from "./pages/UsersPage";
 
 export default function App() {
   return (
@@ -8,7 +8,7 @@ export default function App() {
       <Sidebar />
       <div className="main-content">
         <Navbar />
-        <Dashboard />
+        <UsersPage />
       </div>
     </div>
   );
