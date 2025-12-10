@@ -80,3 +80,71 @@ body {
   font-weight: 600;
 }
 
+
+
+.page-content {
+  padding: 24px;
+}
+
+/* Card container for forms */
+.form-card {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-width: 420px;
+  margin-top: 24px;
+}
+
+/* Title inside form card */
+.form-title {
+  margin-bottom: 16px;
+}
+
+/* Each field wrapper */
+.form-field {
+  margin-bottom: 16px;
+}
+
+/* Label styling */
+.input-label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+/* Input styling */
+.input-box {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0; /* remove weird spacing */
+}
+
+/* Validation text */
+.error-text {
+  color: #dc2626;
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+/* Button */
+.btn-primary {
+  background-color: #2563eb;
+  padding: 10px 16px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-primary:disabled {
+  opacity: 0.7;
+  cursor: default;
+}

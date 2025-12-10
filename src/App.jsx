@@ -3,6 +3,8 @@ import Layout from "./Components/Layout";
 import Dashboard from "./pages/Dashboard";
 import UsersPage from "./pages/UsersPage";
 import SettingsPage from "./pages/SettingsPage";
+import AddUserPage from "./pages/AddUserPage";
+
 
 export default function App() {
   return (
@@ -12,9 +14,12 @@ export default function App() {
         {/* index = default route for "/" */}
         <Route index element={<Dashboard />} />
         <Route path="users" element={<UsersPage />} />
+        <Route path="add-user" element={<AddUserPage />} />
         <Route path="settings" element={<SettingsPage />} />
         {/* catch-all for unknown URLs */}
         <Route path="*" element={<div className="page-content"><h2>Page not found</h2></div>} />
+        
+
       </Route>
     </Routes>
   );
