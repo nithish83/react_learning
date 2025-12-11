@@ -27,12 +27,12 @@ export default function AddUserPage() {
 
   return (
     <div className="page-content">
-      <h2>Add User (React Hook Form)</h2>
+      <h2>Add User</h2>
 
       {/* 👇 THIS is the correct form tag */}
       <form
         onSubmit={handleSubmit(onSubmit)}
-        style={{ maxWidth: "400px", marginTop: "20px" }}
+        style={{ maxWidth: "400px", marginTop: "40px" }}
       >
         {/* Name */}
         <label>Name</label>
